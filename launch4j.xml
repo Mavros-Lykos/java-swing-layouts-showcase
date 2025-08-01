@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\User\Documents\NetBeansProjects\JavaSwingLayouts\dist\JavaSwingLayouts.jar</jar>
+  <outfile>C:\Users\User\Documents\NetBeansProjects\JavaSwingLayouts\EXE\JavaSwinLayouts.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>LayoutsShowcase.LayoutShowcase</mainClass>
+    <cp>lib/flatlaf-3.6.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>true</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>11</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>Java Swing Layouts Demonstration for learners</txtFileVersion>
+    <fileDescription>Java Swing Layouts Demo</fileDescription>
+    <copyright>© 2025 CharakaHashanAmarasekara</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1st Release</txtProductVersion>
+    <productName>Layout Showcase</productName>
+    <companyName>Charaka Hashan Amarasekara</companyName>
+    <internalName>JavaSwingLayouts</internalName>
+    <originalFilename>JavaSwingLayouts.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <jreNotFoundErr>This application requires a Java Runtime Environment.</jreNotFoundErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
