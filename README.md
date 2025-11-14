@@ -1,12 +1,15 @@
 # 💡 Java Swing Layouts Showcase
 
-An interactive demo application showcasing all major Java Swing layout managers:
+![Release](https://img.shields.io/github/v/release/Mavros-Lykos/java-swing-layouts-showcase)
+![GitHub stars](https://img.shields.io/github/stars/Mavros-Lykos/java-swing-layouts-showcase?style=social)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Java 11](https://img.shields.io/badge/Java-11-blue)
+
+An interactive, educational demo that showcases the behavior and usage of major Java Swing layout managers. It is designed for **students**, **educators**, and **developers** who want a concise, hands-on reference for building Swing UIs.
 
 📦 `BorderLayout`, `FlowLayout`, `GridLayout`, `BoxLayout`, `CardLayout`, and `GridBagLayout`.
 
 Built with **Java 11** and **FlatLaf** for a modern UI.
-
-Ideal for **students**, **educators**, and **developers** learning Java GUI development.
 
 ![Application Demo](./ApplicationDemo.png)
 
@@ -47,48 +50,70 @@ Navigate to the `exe/` folder and double-click:
 
 ---
 
-## ✨ Features
+## Table of contents
 
-- View real-time behavior of all major Swing layouts.
-- Modern FlatLaf look and feel for clean UI.
-- Interactive resizing & layout changes.
-- **CardLayout** demo includes buttons to switch views dynamically.
-- Lightweight and easy to modify for your learning needs.
-
----
-
-## 🛠️ Built With
-
-- **Java 11**
-- **Swing GUI Toolkit**
-- **FlatLaf v3.6** – modern, open-source Look & Feel
-- **Launch4j** – for `.exe` packaging
-- **NetBeans** – as IDE (optional)
+- [💡 Java Swing Layouts Showcase](#-java-swing-layouts-showcase)
+  - [📁 Project Structure](#-project-structure)
+  - [🚀 How to Run](#-how-to-run)
+    - [✅ Option 1 – Run Executable (Windows Only)](#-option-1--run-executable-windows-only)
+    - [✅ Option 2 – Run via NetBeans](#-option-2--run-via-netbeans)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [🙋 Contributing](#-contributing)
+  - [📜 License](#-license)
 
 ---
 
-## 🙋 Contribution
+## Overview
 
-Found an issue or want to contribute?  
-Feel free to [open an issue](https://github.com/Mavros-Lykos/java-swing-layouts-showcase/issues) or submit a pull request!
+This small demo application includes examples for the following layout managers:
+
+- `BorderLayout`
+- `FlowLayout`
+- `GridLayout`
+- `BoxLayout`
+- `CardLayout` (interactive view switching)
+- `GridBagLayout`
+
+Each demo is implemented in `src/LayoutsShowcase/LayoutShowcase.java` and demonstrates typical use cases and resizing behavior.
+
+## Features
+
+- Clear, interactive examples of major Swing layouts.
+- Modern appearance using FlatLaf (optional dependency in `lib/`).
+- Resizable UI to demonstrate layout responsiveness.
+- Simple entry points for experimentation and extension.
+
+---
+
+## Requirements
+
+- Java Development Kit (JDK) 11 or later
+- Optional: NetBeans IDE (project metadata provided) or another Java IDE
+
+---
+
+## 🙋 Contributing
+
+Contributions and feedback are welcome. Please follow these steps:
+
+1. Fork the repository.
+2. Create a feature branch (`feature/my-change`).
+3. Add tests or demonstrate the change in the UI where applicable.
+4. Open a pull request with a clear description of the change.
+
+For issues or feature requests, use the GitHub issues page:
+https://github.com/Mavros-Lykos/java-swing-layouts-showcase/issues
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for details.
+This project is released under the MIT License. See `LICENSE` for details.
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-<!--
-
-> ⚠️ *If you'd like to restrict commercial use and allow educational-only usage, consider switching to Creative Commons BY-NC 4.0. Let me know if you'd like help updating this.*
--->
 ---
 
-<!--
-## 👤 Author
+** 👤 Author**: Mavros-Lykos — https://github.com/Mavros-Lykos
 
-(https://github.com/Mavros-Lykos)
-
--->
